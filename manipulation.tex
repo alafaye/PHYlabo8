@@ -1,0 +1,146 @@
+\subsection{Préparation de la manipulation}
+Cette expérience demande de préparer le thermomètre à gaz en quelques étapes simples.
+\begin{enumerate}
+    \item{La pompe à main doit être branchée avec le tube ayant son extremité scellée orientée vers le haut}
+    \item{Tapoter le tube afin de réunir en une seule goutte les éclats de mercure disposés le long du tube}
+    \item{Avec la pompe, générer une mesure de $\Delta p$ maximale}
+\end{enumerate}
+
+Pour régler le volume initial $V_0$:
+\begin{enumerate}
+    \item{Retourner le thermomètre à gaz pour que la partie scellée se retrouve en bas}
+    \item{En controlant la pression avec la vanne du thermomètre à main, réduire la dépression $\Delta p$ jusqu'à 0}
+\end{enumerate}
+
+\subsection{Méthode}
+Pour étudier la loi de Boyle-Mariotte, des mesures à trois températures différentes ont été effectuées:
+\begin{itemize}
+    \item{$T_1 = 280K = 6.85C\degree$}
+    \item{$T_2 = T_{ambiante}$}
+    \item{$T_3 = 340K = 66.85C\degree$}
+\end{itemize}
+
+Pour les cas 280K et 340K l'eau à été amenée à la température voulue dans un cas en la mélangeant avec des glaçons et en attendant que la température remonte, dans l'autre en faisant bouillir l'eau et en la mélangeant avec du liquide à température ambiante.
+
+Pour chaque série de mesures, la température a été mesurée avant et après.
+
+La procédure a donc été la suivante pour chaque température:
+\begin{itemize}
+    \item{Le thermomètre à gaz a été mis à $\Delta p =0$}
+    \item{La hauteur de colonne de mercure a été mesurée}
+    \item{Avec la pompe à main une dépression $\Delta p$ a été générée aux valeurs se trouvant dans les tableaux}
+    \item{La hauteur de la colonne d'air a été mesurée, après qu'elle se soit stabilisée}
+\end{itemize}
+
+\subsection{Résultats}
+
+Pour tout ce qui va suivre, le baromètre du laboratoire a donné comme pression atmosphérique le jour de la manipulation:
+\begin{align}
+    &P_{atm} = 969mbar
+    &P_{atm} = 969.6mbar
+    &P_{atm} = 969.8mbar
+\end{align}
+
+\paragraph{Temperature T=280K}
+Voici donc les résultats bruts pour une température visée de $6.85C\degree$. Toutefois, selon les mesures de la température initiale et finales:
+
+\begin{align*}
+    &T_{ini} = 7.5C\degree\\
+    &T_{fin} = 11C\degree
+\end{align*}
+
+On peut donc affirmer qu'en moyenne $T_{moy} = 9.25C\degree$.
+
+Toutefois, en première approximation, on peut dire que la chaleur s'est diffusé de manière constante, et donc que la température a augmenté de manière linéaire.
+En échelonnant le abcisses avec le nombre de mesures, on obtient une droite de valeur:
+\begin{equation}
+    \frac{3}{8}\cdot x + 7.5
+\end{equation}
+
+Il suffit ensuite de remplacer x par le numéro de la mesure afin d'obtenir une température plus proche de la réalité au moment de la températeure.
+Le défaut de ce modèle est qu'il suppose que la diffusion de chaleur est une fonction linéaire (ce qui généralement est faux) et que les mesures ont été prisese de manière régulière dans le temps (ce qui est aussi inexact). Mais cela reste une meilleure approximation que la moyenne.
+
+\begin{table}[h]
+    \centering
+    \caption{Résultats T=280K}
+    \begin{tabular}{|l|l|l|}
+	\hline
+	$\Delta p [Pa]$	&Hauteur [m] &Temperature [C\degree]\\
+	\hline
+	100	&10.3 & 7.5   \\
+	200	&11.5 & 7.88  \\
+	300	&13.1 & 8.25  \\
+	400	&15.3 & 8.63  \\
+	500	&17.7 & 9     \\
+	600	&21.1 & 9.38  \\
+	650	&23.7 & 9.75  \\
+	700	&26.6 & 10.13 \\
+	720	&28.2 & 10.50 \\
+	740	&29.2 & 10.88 \\
+	760	&32.1 & 11.25 \\
+	780	&33.6 & 11.63 \\
+	\hline
+    \end{tabular}
+\end{table}
+
+\paragraph{Température ambiante}
+\begin{table}[h]
+    \centering
+    \caption{Résultats $T=T_{ambiante}$}
+    \begin{tabular}{|l|l|}
+	\hline
+	$\Delta p [Pa]$	&Hauteur [m]\\
+	\hline
+	100	&11.4\\
+	200	&12  \\
+	300	&13.7\\
+	400	&15.6\\
+	500	&18.4\\
+	600	&22.1\\
+	650	&25  \\
+	700	&27.6\\
+	720	&29.1\\
+	740	&30.5\\
+	760	&32.9\\
+	780	&34.9\\
+	\hline
+    \end{tabular}
+\end{table}
+
+\paragraph{Temperature T=340K}
+Voici donc les résultats bruts pour une température visée de $66.85C\degree$. Toutefois, selon les mesures de la température initiale et finales:
+
+\begin{align*}
+    &T_{ini} = 66C\degree\\
+    &T_{fin} = 50C\degree
+\end{align*}
+
+On peut donc affirmer qu'en moyenne $T_{moy} = 58C\degree$.
+
+Cette fois ci, l'approximation linéaire est d'autant plus importante que le delta entre la température initiale et finale est grande. Cette courbe est décroissante:
+\begin{equation}
+    -\frac{4}{3}\cdot x + 66
+\end{equation}
+
+\begin{table}[h]
+    \centering
+    \caption{Résultats T=340K}
+    \begin{tabular}{|l|l|l|}
+	\hline
+	$\Delta p [Pa]$	&Hauteur [m] &Temperature[C\degree]\\
+	\hline
+	100	&12.2 &   66   \\
+	200	&13.4 &   64.67\\
+	300	&15.5 &   63.33\\
+	400	&17.8 &   62   \\
+	500	&20.7 &   60.67\\
+	600	&24.8 &   59.33\\
+	650	&27.5 &   58   \\
+	700	&31.3 &   56.67\\
+	720	&32.5 &   55.33\\
+	740	&33   &   54   \\
+	760	&\~34   & 52.67\\
+	780	&\~34.1 & 51.33\\
+	\hline
+    \end{tabular}
+\end{table}
